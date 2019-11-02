@@ -1,0 +1,27 @@
+# Используемый язык
+language: java
+# Режим обычного пользователя (собирается быстрее)
+sudo: false
+
+after_success:
+- bash <(curl -s https://codecov.io/bash)
+
+# Уведомления
+notifications:
+  email:
+    recipients:
+    - aa112233445566778899@yandex.ru
+    on_success: never
+    on_failure: never
+
+# Окружающая среда
+env:
+  # подключение code coverage
+  global:
+  - CODECOV_TOKEN="40de0671-ac47-48c1-9797-4f80d71f30b4"
+
+#Использование jdk
+jdk:
+- openjdk8
+
+dist: xenial
