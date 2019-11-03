@@ -1,4 +1,5 @@
- Validator
+ Validator [![Build Status](https://travis-ci.org/AlekseyLazarev/validator.svg?branch=master)](https://travis-ci.org/AlekseyLazarev/validator)[![codecov](https://codecov.io/gh/AlekseyLazarev/validator/branch/master/graph/badge.svg)](https://codecov.io/gh/AlekseyLazarev/validator)
+ 
  Задание:
  1. Сделать runnable jar файл который бы получал как входные данные:
  имя xml файла, имя xsd файла(по этой схеме должен быть сформирован xml файл), имя xslt файла и имя результирующего файла(тоже хмл).
